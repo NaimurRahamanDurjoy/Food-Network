@@ -3,7 +3,15 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+header{
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    font-family: initial;
+}
+.first-section{
     display: flex;
 }
 .half-width{
@@ -16,15 +24,11 @@ section{
 
 }
 .half-width img{
-    width: 75%;
+    width: 70%;
 
 }
 h1{
-    font-size: 50px;
     font-weight: 700;
-}
-h2{
-    font-size: 40px;
 }
 .skip-color{
     color: orange;
@@ -38,7 +42,50 @@ h2{
     border-radius: 40px;
 }
 .second-section{
-    background-image: url(image/Frame\ 57.jpg);
+    background-image: url(image/Frame\ 58.jpg);
     background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 150px;
 
 }
+.second-section img{
+    height: 350px;
+    width: auto;
+    margin-left: 60px;
+
+}
+.my-recipies{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+
+
+}
+#recipie-center{
+    text-align: center;
+}
+.recipie-item{
+    width: 20%;
+    padding: 10px;
+    box-shadow: 5px 6px 10px gray;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    
+    
+   
+}
+.recipie-item img{
+    height: 250px;
+    width:300px;
+
+}
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 19);
+    color: white;
+    padding: 15px;
+}
+
+
